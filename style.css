@@ -25,10 +25,22 @@ nav a:hover {
 }
 
 /* Center all section text */
-.section-white, .section-dark {
+/* Dark section (blue background, white text) */
+.section-dark {
+    background-color: #0b1a33;
+    color: white;
     text-align: center;
     padding: 80px 20px;
 }
+
+/* White section (white background, black text) */
+.section-white {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 80px 20px;
+}
+
 
 /* Limit paragraph width for readability */
 .section-white p, .section-dark p {
